@@ -1,0 +1,131 @@
+:root {
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+    --button-radius: 35px;
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: var(--font-open-sans);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .container {
+    width: 1352px;
+    margin: 0 auto;
+  }
+/*HEADER*/
+
+.header { 
+    height: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.212);
+}
+
+.header_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  /*position: sticky;
+  top: 0;
+  left: 0;*/
+
+}
+
+.header_nav {
+  display: flex;
+}
+
+.logo{
+  font-family:  var(--font-raleway);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--color-primary);
+}
+
+.nav_link{
+  color: var(--color-grey);
+  font-weight: 700;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  padding: 28px 18px 22px;
+  border-bottom: 4px solid transparent;
+  letter-spacing: 0.1875rem;
+}
+
+.nav_link:hover{
+  color: var(--color-black);
+  border-color: var(--color-primary);
+}
+
+.nav_element{
+  padding: 0 26px;
+}
+
+.nav_element:last-child{
+  padding-right: 0;
+}
+
+/*HEADER*/
+
+/*OPENING SECTION*/
+
+.opening_content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+.opening_header{
+  font-family: var(--font-raleway);
+  font-size: 3.0625rem;
+}
+.opening_heading{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.btn{
+  border-radius: var(--button-radius);
+  color: var(--color-white);
+  display: inline-block;
+  font-weight: 600;
+}
+
+.btn-primary{
+  background-color: var(--color-primary);
+  box-shadow: 3px 10px 14px var(--color-primary-shadow);
+}
+
+.btn-primary:hover{
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  
+}
+
+.btn-large {
+  padding: 20px 120px 20px 120px;
+}
+
+.opening img{
+  width: 100%;
+  height: auto;
+}
+/*OPENING SECTION*/
+
+
+
+  
+  
